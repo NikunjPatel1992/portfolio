@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/resume.min.css" rel="stylesheet">
+
+  <!-- link firebase -->
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Link to jquary file-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Patel Nikunj</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/My_Image.JPG" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+      <div class="my-auto">
+        <h1 class="mb-5">Patel
+          <span class="text-primary">Nikunj</span>
+        </h1>
+       
+        <p class="lead mb-5"> :- I am Nikunj Patel. I was born in India on March 5th, 1992. I grew up in India and
+          moved to
+          the United States one year ago.</p>
+        <p class="lead mb-5"> :- I got my bachelor from VNSGU University and master degree from GTU University in
+          Computer
+          applications. I
+          have done couple of projects with desktop application and android application.</p>
+        <p class="lead mb-5"> :- Currently, I am taking classes at Northwestern University to get web developer
+          certificate. Also, I work full time at CVS. My future goal is to find job at IT company as a web developer. I
+          send the majority of my time practicing coding.</p>
+
+        <div class="row ">
+          <div class="col-md-12 text-center">
+            <a href="document/Nikunj Patel.docx"><button
+              class="btn btn-outline-warning">Download CV</button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+      <div class="my-auto">
+        <h2 class="mb-5">Portfolio</h2>
+        <div class="row">
+          <div class="portfolio_content">
+            <div class="main_portfolio_content">
+
+              <div class="row">
+                <div class="col-sm-4 single_portfolio_text text-center">
+                  <div class="card ">
+                    <div class="">
+                      <img src="img/project1.PNG" alt="" height="275">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Project 1</h4>
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Project</h6>
+                      <a href="https://teampurple-bootcamp2019.github.io/LazyGrazer/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card ">
+                    <div>
+                      <img src="img/phychic_game.PNG" alt="" height="275">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Phychic Game</h4>
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Phychic Game</h6>
+                      <a href="https://nikunjpatel1992.github.io/Psychic-Game-Bootstrap/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/train.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Train Scheduler</h4>
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Train Scheduler</h6>
+                      <a window.open href="https://nikunjpatel1992.github.io/Train-Scheduler/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/crystal.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Crystal Collector</h4>
+
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Crystal Collector</h6>
+                      <a href="https://nikunjpatel1992.github.io/Crystal-Collector-Demo/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/trivia.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Trivia Game</h4>
+
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Trivia Game</h6>
+                      <a href="https://nikunjpatel1992.github.io/TriviaGame/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/giphy_movie.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Movie Giphy API</h4>
+
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Movie Giphy API</h6>
+                      <a href="https://nikunjpatel1992.github.io/Movie-GIPHY-API/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/hangman.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Hangman Game</h4>
+
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Hangman Game</h6>
+                      <a href="https://nikunjpatel1992.github.io/Word-Guess-Game-Demo/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/giphy_animal.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Animal Giphy API</h4>
+
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Animal Giphy API</h6>
+                      <a href="https://nikunjpatel1992.github.io/GIPHY-API/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/star_wars_rpg.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Star Wars RPG</h4>
+
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Star Wars RPG</h6>
+                      <a href="https://nikunjpatel1992.github.io/Star-Wars-RPG-Demo/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 single_portfolio_text text-center">
+                  <div class="card">
+                    <img src="img/trivia_a.PNG" alt="" height="275">
+                    <div class="card-body">
+                      <h4 class="card-title">Advance Trivia Game</h4>
+                    </div>
+                    <div class="portfolio_images_overlay text-center">
+                      <h6>Advance Trivia Game</h6>
+                      <a href="https://nikunjpatel1992.github.io/Trivia-Game-Advanced/" class="btn btn-outline-warning"><button
+                          class="btn btn-outline-warning" id="click">Click here</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+      <div class="my-auto">
+        <h2 class="mb-5">Contact Me</h2>
+
+        <div class="row">
+          <div class="col-md-8 ">
+            <form id="contact-form">
+              <ul>
+                <li>
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" placeholder="Nikunj Patel" required="required">
+                </li>
+                <li>
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                </li>
+                <li>
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" required="required"></textarea>
+                </li>
+              </ul>
+
+              <input type="submit" class="submit" value="Send Message">
+            </form>
+          </div>
+          <div class="col-md-4 text-center ">
+            <div>
+              <img src="img/add.png" class="img-circle" width="35" height="35">
+              <p class="myinfo" id="info">LOCATION</p>
+              <a href="#" class="text-center">
+                <p>9259 Cedar Ln,<br> Des Plains, Illinois</p>
+              </a>
+            </div>
+            <div>
+              <img src="img/email.png" class="img-circle" width="35" height="35">
+              <p class="myinfo" id="info">EMAIL</p>
+              <a href="#" class="text-center">
+                <p>nikupatel199@gmail.com</p>
+              </a>
+            </div>
+            <div>
+              <img src="img/web.png" class="img-circle" width="35" height="35">
+              <p class="myinfo" id="info">WEB</p>
+              <a href="#" class="text-center">
+                <p>https://nikunjpatel1992.github.io/</p>
+              </a>
+            </div>
+            <div>
+              <img src="img/phone.png" class="img-circle" width="35" height="35">
+              <p class="myinfo" id="info">TELEPHONE</p>
+              <a href="#" class="text-center">
+                <p>847-840-9206</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="social-icons socialicon">
+
+              <a href="https://www.linkedin.com/in/nikunj-patel-a9a374161/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/NikunjPatel1992">
+                <i class="fab fa-github"></i>
+              </a>
+              <!-- <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a> -->
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <div class="my-auto">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">CVS Caremark, Mt. Prospect-IL</h3>
+            <div class="subheading mb-3">Material Handler</div>
+            <p>• Engaging in the receiving, storage and replenishment of products</p>
+            <p>• Inspect product for damages</p>
+            <p>• Pull product to be shipped with the appropriate carriers</p>
+            <p>• Utilize scanners and other hand-held devices to maintain inventory accuracy</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">July 2018 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Android Developer</h3>
+            <div class="subheading mb-3">as a Self-Employed</div>
+            <p>• Experienced in Software Development Life Cycle (SDLC) such as Requirements Gathering, Design,
+              Development and maintenance phases to meet requirement of project.</p>
+            <p>• Application usable on both Smart phone and tablets.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Feb 2016 – March 2017</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">SFA Convent High School, Navsari (India)</h3>
+            <div class="subheading mb-3">Assistant Clark</div>
+            <p>• Prepared reports of all the students and teachers</p>
+            <p>• Created salary reports of teaching Staff</p>
+            <p>• Made an entry of students in the system, managed all documentation and reports</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Jan 2016 – Jan 2017</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+      <div class="my-auto">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Northwestern University (Evanston, IL)</h3>
+            <div class="subheading mb-3">Coding BootCamp Certificate</div>
+            <div>Computer Science - Web Development</div>
+            <!-- <p>GPA: 3.23</p> -->
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Graduate-April 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Gujarat Technological University (India)</h3>
+            <div class="subheading mb-3">Master of Computer Application</div>
+            <div>Computer Science</div>
+            <p>CGPA: 7.10</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Graduated- May 2015</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Veer Narmad South Gujarat University, Surat (India)</h3>
+            <div class="subheading mb-3">Bachelor of Computer Application</div>
+            <div>Computer Science</div>
+            <p>CGPA: 6.1</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Graduated- May 2013</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+      <div class="my-auto">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons mb-5">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+          </li>
+        </ul>
+        <div class="subheading mb-3">Basic Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons mb-5">
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-android"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-code"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-php"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-drupal"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Web, Mobile Responsive Design</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Web Cross Browser Testing &amp; Debugging</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Cross Functional Teams</li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    
+
+
+  </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script src="js/portfolio.js"></script>
+
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>

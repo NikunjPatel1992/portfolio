@@ -1,0 +1,185 @@
+/* img{
+    height: 100%;
+    width: 100%;
+} */
+#click{
+    color: #fff;
+    border: #BD5D38;
+    font-size: 20px;
+    font: bold;
+}
+.btn-outline-warning{
+    border: #BD5D38 solid 2px;
+}
+
+.myinfo{
+    font: bold;
+    font-size: 20px;
+}
+#info{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8A99AA;
+}
+.card{
+    margin-bottom: 10px;
+    animation: card 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes card {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes card {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      opacity: 1;
+    }
+  }
+
+  /* ---------------------------------------------------
+    Portfolio Section CSS
+----------------------------------------------------- */
+.portfolio{
+	width: 100%;
+	overflow: hidden;	
+}
+
+.portfolio_content{
+	padding-bottom:120px;
+	display:inline-block;
+}
+.portfolio .portfolio_content .head_title h3{
+	color:#000000;
+}
+.portfolio .portfolio_content .head_title h4{
+	color:#000000;
+}
+
+.head_title{
+	padding-top:100px;
+	padding-bottom: 50px;
+}
+
+.single_portfolio_text{
+	display:inline-block;
+	padding:0;
+	position:relative;
+	overflow:hidden;
+
+}
+.single_portfolio_text img{
+	width:100%;
+}
+
+.single_portfolio_text:hover .portfolio_images_overlay{
+	top: 28px;
+    left: 14px;
+}
+
+.portfolio_images_overlay{
+	width: 90%;
+    height: 65%;
+    /* color: red; */
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    margin: 0 auto;
+    top:-100%;
+    left: 14px;
+    position: absolute;
+	transition:.6s;
+}
+.portfolio_images_overlay h6{
+	text-transform:uppercase;
+	color:#fff;
+	font-size:1.3125rem;
+	line-height:2rem;
+}
+
+.portfolio_images_overlay p.product_price{
+	font-size:2.5725rem;
+	color:#fff;
+	line-height:3rem;
+}
+
+  
+/* ==============contact page===== */
+
+#contact-form ul {
+    margin-bottom: 20px;
+    list-style: none;
+    
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #8A99AA;
+    border: 0 none;
+  }
+
+  .myform{
+      border: #8A99AA solid 1px;
+      /* background-color: rgb(205, 233, 247); */
+      
+  }
+  .socialicon{
+      margin-top: 15px;
+  }
+
+  #map{
+    margin-top: 15px;
+    height: 200px;
+      width: 100%;
+  }
+  /*======== contact us========  */
+
